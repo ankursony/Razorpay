@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="./Image/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <title>Razorpay</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <nav class="bg-deepBlue">
         <div class="mx-auto w-[1080px] relative flex items-center justify-evenly">
           <a href="#">
-              <img src="./Image/logo.png" class="h8" width="125px">
+              <img src="./Image/logo.png" class="h8 w-[125px]">
           </a>
 
           <ul class="flex gap-6">
@@ -65,9 +66,9 @@
               <button class="py-2 px-4 font-mullish text-white border-lightBlue border text-sm font-bold rounded-md">
                   Log In
               </button>
-              <button class="gap-2 flex py-2 px-4 font-mullish text-sm bg-slate-100 rounded-sm
+              <button class="gap-2 min-w-[32px] flex py-2 px-4 font-mullish text-sm bg-slate-100 rounded-sm
                text-lightBlue300 font-bold border border-lightBlue500 transition-all
-               duration-200 hover:text-lightBlue500">Sign Up <img src="Image/signup.png" class="h-5 w-5"/></button>
+               duration-200 hover:text-lightBlue500">Sign Up <i class="fa-solid fa-arrow-right mt-1"></i></button>
           </div>
           
         </div>
@@ -76,6 +77,29 @@
     <!-- Hero section -->
     <section
     class="relative bg-deepBlue">
+
+      <div class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto ">
+          <!-- Left-Part  -->
+           <div class="space-y-8"> 
+              <h1 class="font-mullish font-bold text-[40px] text-white leading-tight">Power your finance, grow your business</h1>
+              <div class="w-10 h-1 bg-green-500"></div>
+              <p class="font-mullish text-[18px] text-white opacity-80 leading-tight">Accept payments from customers. Automate payouts to vendors & employees.
+                   Never run out of working capital.
+              </p>
+              <button class="bg-lightBlue text-white rounded-md font-mullish font-semibold py-3 px-5 hover:text-deepBlueHead transition-all duration-200" >
+                  SignUp Now
+              </button>
+           </div>
+  
+           <!--Right-part  -->
+           <img src="./Image/hero-illustration.png" alt="hero" class="max-w-[600px]"/>
+      </div>
+      <!-- Shape-part -->
+       
+       <div class="w-full absolute left-0 right-0 ">
+         <img src="Image/hero-shape.png" alt="triangle" 
+         class="w-full h-[200px] object-fill"/>
+       </div>
 
     </section>
 
