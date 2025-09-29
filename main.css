@@ -3,5 +3,23 @@
 @tailwind utilities;
 
 *{
-    scrollbar-width: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  
+}
+.featureCard:hover .featureCardIcon {
+  background-image: linear-gradient(30.55deg, #6ac7ff 11.05%, #148aff 90.09%);
+}
+
+.featureCard:hover .featureCardSVG {
+  filter: drop-shadow(5px 5px 22px rgba(80, 51, 51, 0.25));
+  stroke-opacity: 0 !important;
+}
+
+.featureCard:hover .featureCardBox {
+  background-image: url('./Image/ankur/features-wave.svg');
+  background-repeat: no-repeat;
+  background-position: bottom 1rem right;
 }
