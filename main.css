@@ -7,8 +7,8 @@
   padding: 0;
   box-sizing: border-box;
   scrollbar-width: none;
-  
 }
+
 .featureCard:hover .featureCardIcon {
   background-image: linear-gradient(30.55deg, #6ac7ff 11.05%, #148aff 90.09%);
 }
@@ -28,4 +28,34 @@
   background-size:100% 100% ;
   padding-top: 20rem;
   padding-bottom: 20rem;
+}
+
+.companiesList {
+  animation: 20s infinite linear companiesAnimation;
+}
+
+@keyframes companiesAnimation {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: -160%;
+  }
+}
+
+.shade{
+  position: absolute;
+  background: linear-gradient(180deg, #f4f8ff, #fff0);
+  width: 100%;
+  height: 150px;
+  z-index: 50;
+}
+
+.shade1{
+  position: absolute;
+  background: linear-gradient(0deg, #f4f8ff, #fff0);
+  width: 100%;
+  height: 150px;
+  bottom: 0;
 }
